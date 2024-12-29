@@ -174,9 +174,16 @@ xml
 SignalSim a été réalisé grâce à la collaboration d'une équipe multidisciplinaire et dévouée, chacun apportant son expertise dans différents aspects du projet.
 
 - Equipe de projet :
-  - Nihal Majjad : Chef de projet (https://github.com/nihal149).
-  - Hafssa Bamhammed : Développeuse logiciel (https://github.com/hafssa371).
-  - Mohammed Yousfi : Ingénieur en télécommunications (https://github.com/MohammedYousfi49).
+  - Nihal Majjad :  (https://github.com/nihal149).
+  - Hafssa Bamhammed : (https://github.com/hafssa371).
+  - Mohammed Yousfi : (https://github.com/MohammedYousfi49).
+ 
+    ## Video Demonstration
+
+    https://github.com/user-attachments/assets/290552cf-eaea-4457-bab7-9c86296f56ca
+
+
+    
 
 
 
