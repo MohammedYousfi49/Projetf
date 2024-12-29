@@ -173,6 +173,11 @@ xml
 ## Contributeurs
 SignalSim a été réalisé grâce à la collaboration d'une équipe multidisciplinaire et dévouée, chacun apportant son expertise dans différents aspects du projet.
 
+- Equipe de projet :
+  - Nihal Majjad : Chef de projet (https://github.com/nihal149).
+  - Hafssa Bamhammed : Développeuse logiciel.
+  - Mohammed Yousfi : Ingénieur en télécommunications
+
 
 
 
