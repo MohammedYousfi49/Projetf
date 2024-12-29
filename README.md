@@ -27,8 +27,8 @@ services:
     ports:
       - "3308:3308"
     environment:
-      MYSQL_DATABASE: testt
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: signalsim
+      MYSQL_ROOT_PASSWORD: 
 
   backend:
     build:
@@ -37,9 +37,9 @@ services:
     ports:
       - "8000:8000"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/testt
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/signalsim
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_DATASOURCE_PASSWORD: 
     depends_on:
       mysql:
         condition: service_started
@@ -60,7 +60,7 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 
       PMA_PORT: 3306
 ```
 
