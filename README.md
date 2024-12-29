@@ -171,6 +171,9 @@ xml
   - Output : Fichier CSV ou JSON des résultats.
 
 ## Contributeurs
+SignalSim a été réalisé grâce à la collaboration d'une équipe multidisciplinaire et dévouée, chacun apportant son expertise dans différents aspects du projet.
+
+
 
 
 
