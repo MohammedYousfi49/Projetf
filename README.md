@@ -79,7 +79,7 @@ volumes:
   
 - Fonctionnalités :
   - Modélisation interactive des zones.
-  - Tableaux de bord pour visualiser les résultats de simulation.
+  - Visualisation des résultats de simulation.
 
 
 ### Backend
