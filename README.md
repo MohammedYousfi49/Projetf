@@ -1,6 +1,7 @@
 # SignalSim: Simulateur de Propagation de Signaux Radio
 
-![WhatsApp Image 2024-12-29 at 00 06 36](https://github.com/user-attachments/assets/7637270b-db8e-4a98-807d-8fc75dbbd808)
+![WhatsApp Image 2025-01-03 à 17 01 38_971eace7](https://github.com/user-attachments/assets/e3f8dbeb-72d1-46eb-b040-e9e4a4c630d0)
+
 
 ## Description
 SignalSim est une application innovante conçue pour simuler la propagation des ondes radio dans divers environnements, offrant aux chercheurs, ingénieurs, et développeurs une plateforme puissante et intuitive. Elle permet de modéliser précisément la propagation des signaux dans des contextes variés, notamment les zones urbaines densément peuplées, les paysages ruraux ouverts, et les espaces intérieurs complexes. Grâce à une interface interactive, SignalSim fournit des visualisations détaillées des zones de couverture, des interférences et des effets environnementaux sur les signaux radio. L’application inclut également des fonctionnalités d’exportation, permettant d’enregistrer et d’analyser les données générées sous différents formats pour approfondir les recherches ou alimenter d'autres systèmes. En combinant des outils de pointe comme React.js pour le frontend, Spring Boot pour le backend, et une base de données robuste MySQL, SignalSim se positionne comme un outil indispensable pour tester des hypothèses, évaluer des performances de réseau et améliorer les systèmes de télécommunication de nouvelle génération. Elle représente un atout majeur pour l’étude et la compréhension des défis complexes liés à la transmission des signaux radio dans des environnements hétérogènes.
