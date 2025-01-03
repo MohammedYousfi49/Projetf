@@ -75,7 +75,8 @@ volumes:
 
 ### Frontend
 
-- Technologies : React.js 
+- Technologies : React.js, Leaflet pour la carte, et Chart.js pour les graphiques.
+  
 - Fonctionnalités :
   - Modélisation interactive des zones.
   - Tableaux de bord pour visualiser les résultats de simulation.
