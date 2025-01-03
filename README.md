@@ -75,7 +75,7 @@ volumes:
 
 ### Frontend
 
-- Technologies : React.js avec des bibliothèques comme Redux pour la gestion d’état et d3.js pour les visualisations.
+- Technologies : React.js 
 - Fonctionnalités :
   - Modélisation interactive des zones.
   - Tableaux de bord pour visualiser les résultats de simulation.
