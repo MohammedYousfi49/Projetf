@@ -21,39 +21,40 @@ contribuant à la recherche et à l’amélioration des systèmes de télécommu
 ```sh
 
 
-version: '3'
+version: '3.8'
+
 services:
   mysql:
     image: mysql:5.7
     ports:
-      - "3308:3308"
+      - "3306:3306"
     environment:
-      MYSQL_DATABASE: signalsim
+      MYSQL_DATABASE: signalsim_db
       MYSQL_ROOT_PASSWORD: 
+    volumes:
+      - mysql_data:/var/lib/mysql
 
   backend:
     build:
-      context: ./pfa2021 # Utilisez le répertoire actuel où se trouve le Dockerfile du backend
-      dockerfile: Dockerfile # Assurez-vous que le Dockerfile est dans le même répertoire que docker-compose.yml
+      context: ./Signalsim
+      dockerfile: Dockerfile # Dockerfile pour le backend
     ports:
-      - "8000:8000"
+      - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/signalsim
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/signalsim_db
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: 
+      SPRING_DATASOURCE_PASSWORD:
     depends_on:
-      mysql:
-        condition: service_started
+      - mysql
 
   frontend:
     build:
-      context: ./argon-design-system-angular-master # Utilise le répertoire actuel où se trouve le Dockerfile du frontend
-      dockerfile: DockerFile
+      context: ./signalsim
+      dockerfile: Dockerfile # Dockerfile pour le frontend
     ports:
-      - "80:80"
+      - "3000:3000"
     depends_on:
-      backend:
-        condition: service_started
+      - backend
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -61,8 +62,11 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: 
+      MYSQL_ROOT_PASSWORD:
       PMA_PORT: 3306
+
+volumes:
+  mysql_data:
 ```
 
 
